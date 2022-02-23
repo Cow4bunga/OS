@@ -1,0 +1,7 @@
+﻿  LibrariesDemo.cpp
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(24,9): warning C4251: 'Vector::x': class 'Number' needs to have dll-interface to be used by clients of class 'Vector'
+C:\Users\Иван\source\repos\StaticNumber\NumberLibrary\NumberLibrary.h(3): message : see declaration of 'Number'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(24,12): warning C4251: 'Vector::y': class 'Number' needs to have dll-interface to be used by clients of class 'Vector'
+C:\Users\Иван\source\repos\StaticNumber\NumberLibrary\NumberLibrary.h(3): message : see declaration of 'Number'
+  LibrariesDemo.vcxproj -> C:\Users\Иван\source\repos\LibrariesDemo\x64\Debug\LibrariesDemo.exe
+  Скопировано файлов: 0.
