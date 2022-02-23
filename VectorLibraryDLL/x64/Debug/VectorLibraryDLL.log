@@ -1,0 +1,26 @@
+﻿  pch.cpp
+  dllmain.cpp
+  VectorLib.cpp
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(24,9): warning C4251: 'Vector::x': class 'Number' needs to have dll-interface to be used by clients of class 'Vector'
+C:\Users\Иван\source\repos\StaticNumber\NumberLibrary\NumberLibrary.h(3): message : see declaration of 'Number'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(24,12): warning C4251: 'Vector::y': class 'Number' needs to have dll-interface to be used by clients of class 'Vector'
+C:\Users\Иван\source\repos\StaticNumber\NumberLibrary\NumberLibrary.h(3): message : see declaration of 'Number'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(4,9): warning C4273: 'Vector::Vector': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(12,2): message : see previous definition of '{ctor}'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(8,9): warning C4273: 'Vector::Vector': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(13,2): message : see previous definition of '{ctor}'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(12,16): warning C4273: 'Vector::getRadius': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(15,9): message : see previous definition of 'getRadius'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(17,16): warning C4273: 'Vector::getAngle': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(16,9): message : see previous definition of 'getAngle'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(25,16): warning C4273: 'Vector::getX': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(17,9): message : see previous definition of 'getX'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(30,16): warning C4273: 'Vector::getY': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(18,9): message : see previous definition of 'getY'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(35,16): warning C4273: 'Vector::addVector': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(20,9): message : see previous definition of 'addVector'
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.cpp(40,16): warning C4273: 'Vector::operator +': inconsistent dll linkage
+C:\Users\Иван\source\repos\DynamicVector\VectorLibraryDLL\VectorLib.h(22,9): message : see previous definition of '+'
+  Generating Code...
+     Creating library C:\Users\Иван\source\repos\DynamicVector\x64\Debug\VectorLibraryDLL.lib and object C:\Users\Иван\source\repos\DynamicVector\x64\Debug\VectorLibraryDLL.exp
+  VectorLibraryDLL.vcxproj -> C:\Users\Иван\source\repos\DynamicVector\x64\Debug\VectorLibraryDLL.dll
