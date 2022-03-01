@@ -1,0 +1,10 @@
+# ninja log v5
+4	524	1646161762749412833	CMakeFiles/Vect.dir/home/ivan_l/Libraries/Vect/library.cpp.o	194e84f6571db0cd
+1	557	1646161762781413024	CMakeFiles/Num.dir/home/ivan_l/Libraries/Num/library.cpp.o	c84000dbb7926bf7
+561	613	1646161762853413452	libNum.a	a5792b2fb4249c44
+525	686	1646161762925413880	libVect.so	732b36d2c763943
+0	1111	1646161763353416427	CMakeFiles/Test.dir/main.cpp.o	4f3bb45d548c69a7
+1	746	1646161825721790241	CMakeFiles/Test.dir/main.cpp.o	4f3bb45d548c69a7
+1	227	1646162296216736805	CMakeFiles/Vect.dir/home/ivan_l/Libraries/Vect/library.cpp.o	194e84f6571db0cd
+227	313	1646162296300737345	libVect.so	732b36d2c763943
+313	454	1646162296436738220	Test	5c352d7b3e46f3eb
