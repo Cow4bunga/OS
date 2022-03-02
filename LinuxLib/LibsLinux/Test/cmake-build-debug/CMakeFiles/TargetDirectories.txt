@@ -1,5 +1,0 @@
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/Test.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/Num.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/Vect.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
