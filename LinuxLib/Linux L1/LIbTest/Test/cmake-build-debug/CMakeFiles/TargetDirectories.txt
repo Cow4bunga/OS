@@ -1,3 +1,0 @@
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ivan_l/LIbTest/Test/cmake-build-debug/CMakeFiles/Test.dir
