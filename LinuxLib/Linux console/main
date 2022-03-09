@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo [New directory]
+#mkdir mbuild(mbuild already exists)
+
+echo [Build number]
+g++ -c build/Num/number.cpp -o mbuild/number.o
+ar rvs mbuild/libnumber.a mbuild/number.o
+
+echo [Build vector]
+g++ -c build/Vect/vector.cpp -Ibuild/Num -o mbuild/vector.o 
+g++ -shared -o mbuild/libvector.so mbuild/vector.o
+
+
+echo [Build main]
+g++ -o mbuild/main build/Test/main.cpp -Ibuild/Num -Ibuild/Vect -Lmbuild/ -lvector -lnumber
+export LD_LIBRARY_PATH=mbuild/:$LD_LIBRARY_PATH
+
+./mbuild/main
