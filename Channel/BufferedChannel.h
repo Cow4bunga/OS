@@ -8,7 +8,7 @@
 template <class T>
 class Channel {
 public:
-	
+
 	Channel() : buffSize(100) {}
 
 	Channel(int bSize) : buffSize(bSize) {}
@@ -16,17 +16,16 @@ public:
 	void send(T data)
 	{
 		std::unique_lock<std::mutex> uLock(qmutex);
+		c_var.wait(uLock, buff.size() != buffSize && !isClosed);
 		if (isClosed) {
 			throw std::runtime_error("This channel is closed atm!");
 		}
-
-		c_var.wait(uLock, buff.size() != buffSize && !isClosed);
 		buff.push(data);
 		uLock.unlock();
 		c_var.notify_one();
 	}
 
-	
+
 	std::pair<T, bool> recv()
 	{
 		std::unique_lock<std::mutex> uLock(qmutex);
@@ -38,7 +37,7 @@ public:
 		return std::make_pair<T, bool>(var, !isClosed);
 	}
 
-	
+
 	void close()
 	{
 		std::unique_lock<std::mutex> uLock(qmutex);
@@ -53,8 +52,5 @@ private:
 	int buffSize;
 	std::mutex qmutex;
 	std::condition_variable c_var;
-	bool isClosed=false;
+	bool isClosed = false;
 };
-
-
-
